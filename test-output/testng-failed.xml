@@ -3,11 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="Pyxis.RestAssured.APITest.LoginSignupTest">
         <methods>
           <include name="VerifyRegisterAPI"/>
         </methods>
       </class> <!-- Pyxis.RestAssured.APITest.LoginSignupTest -->
+=======
+      <class name="LoginSignupTest">
+        <methods>
+          <include name="VerifyLoginAPI"/>
+        </methods>
+      </class> <!-- LoginSignupTest -->
+>>>>>>> 5cfc9c4 (Second Commit)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
@@ -12,6 +13,21 @@
           </reporter-output>
         </test-method> <!-- VerifyRegisterAPI -->
       </class> <!-- Pyxis.RestAssured.APITest.LoginSignupTest -->
+=======
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2113" started-at="2021-01-24T20:21:16Z" finished-at="2021-01-24T20:21:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2113" started-at="2021-01-24T20:21:16Z" finished-at="2021-01-24T20:21:18Z">
+      <class name="LoginSignupTest">
+        <test-method status="PASS" signature="VerifyLoginAPI()[pri:2, instance:LoginSignupTest@240237d2]" name="VerifyLoginAPI" duration-ms="2091" started-at="2021-01-24T20:21:16Z" finished-at="2021-01-24T20:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginAPI -->
+      </class> <!-- LoginSignupTest -->
+>>>>>>> 5cfc9c4 (Second Commit)
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
